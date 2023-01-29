@@ -5,7 +5,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- daos -->
-    <bean id="userRepository" class="UserDAO">
+    <bean id="userRepository" class="com.deploydesexta.springsandbox.repositories.UserDAO">
         <!-- configurações e dependencias vão aqui -->
     </bean>
 </beans>
