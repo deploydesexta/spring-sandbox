@@ -1,1 +1,12 @@
 rootProject.name = 'spring-sandbox'
+
+include('bean-qualification-strategies:commons')
+include('bean-qualification-strategies:kt-typealias-injection')
+include('bean-qualification-strategies:java-annotation-injection')
+include('bean-qualification-strategies:java-classes-injection')
+include('bean-qualification-strategies:java-generics-injection')
+include('bean-qualification-strategies:java-qualifiers-injection')
+include('bean-qualification-strategies:java-primary-injection')
+
+include('spring-di-only:java-annotation-based')
+include('spring-di-only:java-xml-based')
