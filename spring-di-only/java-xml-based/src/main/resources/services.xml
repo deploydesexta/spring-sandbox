@@ -5,7 +5,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- services -->
-    <bean id="userService" class="UserService">
+    <bean id="userService" class="com.deploydesexta.springsandbox.services.UserService">
         <constructor-arg name="userRepository" ref="userRepository"/>
         <!-- configurações e dependencias vão aqui -->
     </bean>

@@ -8,5 +8,6 @@ include('bean-qualification-strategies:java-generics-injection')
 include('bean-qualification-strategies:java-qualifiers-injection')
 include('bean-qualification-strategies:java-primary-injection')
 
+include('spring-di-only:commons')
 include('spring-di-only:java-annotation-based')
 include('spring-di-only:java-xml-based')

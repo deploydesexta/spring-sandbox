@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+	implementation project(':spring-di-only:commons')
 	implementation 'org.springframework:spring-context:6.0.4'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
